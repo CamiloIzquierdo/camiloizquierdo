@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #262528;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #262528;
+}
+
+.my-slider .slick-track {
+    display: flex;
+    gap: 1rem; /* Ajusta el valor según el espacio deseado entre las imágenes */
+}
+
+foto:hover {
+    filter: grayscale(0%);
+}
